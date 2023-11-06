@@ -59,7 +59,8 @@ def print_all_data():
         print(f"{names[nr]} ==> {results[0][nr]}")
     print()
 
-
-inicjalize_db()
+try:
+    inicjalize_db()
+except: pass 
 set_default_values()
 print_all_data()
