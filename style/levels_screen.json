@@ -1,0 +1,50 @@
+{
+    "#level_button_notfullscreen":{
+        "colours": {
+            "normal_bg":"#F79824",
+            "hovered_bg":"#EC8609",
+            "selected_bg":"#193754",
+            "normal_text":"#fdfcdc",
+            "hovered_text":"#31393C",
+            "selected_text":"#FFFFFF",
+            "normal_border": "#31393C",
+            "hovered_border": "#C56F07",
+            "selected_border": "#8080B0"
+        },
+        "font":
+        {
+            "name": "TitanOne",
+            "size": "14",
+            "regular_path":"fonts/TitanOne-Regular.ttf"
+        },
+        "misc":{
+            "border_width":"3",
+            "shape":"rounded_rectangle",
+            "shape_corner_radius":"10"
+        }
+    },
+    "#level_button_fullscreen":{
+        "colours": {
+            "normal_bg":"#F79824",
+            "hovered_bg":"#EC8609",
+            "selected_bg":"#193754",
+            "normal_text":"#fdfcdc",
+            "hovered_text":"#31393C",
+            "selected_text":"#FFFFFF",
+            "normal_border": "#31393C",
+            "hovered_border": "#C56F07",
+            "selected_border": "#8080B0"
+        },
+        "font":
+        {
+            "name": "TitanOne",
+            "size": "25",
+            "regular_path":"fonts/TitanOne-Regular.ttf"
+        },
+        "misc":{
+            "border_width":"5",
+            "shape":"rounded_rectangle",
+            "shape_corner_radius":"20"
+        }
+    }
+}

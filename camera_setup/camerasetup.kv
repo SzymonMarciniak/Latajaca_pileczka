@@ -1,0 +1,237 @@
+#: import mtx kivy.metrics
+#: import FadeTransition kivy.uix.screenmanager.FadeTransition
+
+#: set BG_COLOR rgba('#ececec')
+#: set MAIN_COLOR rgba('#0fafff')
+#: set SECONDARY_COLOR rgba('#0f87ff')
+#: set DECORATION_COLOR [0.031, 0.768, 0.549, 0.2]
+#: set DECORATION_COLOR_NOALPHA rgba('#08c48c')
+#: set ERROR_COLOR rgba('#c92a1e')
+#-------------- DARK MODE --------------#
+#: set DM_MAIN_COLOR rgba('#282a35')
+
+<MainScreen@BoxLayout>:
+    orientation: "vertical"
+    canvas.before:
+        Color:
+            rgba: DM_MAIN_COLOR
+        Rectangle:
+            pos: 0,0
+            size: 10000, 10000
+
+    BoxLayout:
+        orientation: "horizontal"
+        size_hint: 1, .3
+        RelativeLayout:
+            size_hint: .5, 1
+            
+            Label:
+                id: camera_label_id
+                text: "Choose your camera id:"
+                font_size: 24
+                pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+                
+            Spinner:
+                id: camera_spinner 
+                pos_hint: {'center_x': 0.5 , 'center_y': 0.3}
+                size_hint: .6, .3
+                text: "Your camera id"
+                values: root.available_cam_list
+                on_text: root.choose_camera(camera_spinner.text)
+                on_press: root.search_cameras()
+
+
+        RelativeLayout:
+            size_hint: .35, 1
+            Label: 
+                text: "Wall on left side?"
+                font_size: 24
+                size_hint: .35, 1
+                pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+                
+            CustomSwitch:
+                id: wall_switch_id
+                size_hint: .3, .1
+                pos_hint: {'center_x': 0.5, 'center_y': 0.3}
+                active: True
+                on_touch_down: root.switch_wall(self.active)
+                 
+
+        
+        RelativeLayout:
+            size_hint: .5, 1
+            Label:
+                id: ball_label_id
+                text: "Choose color of your ball:"
+                font_size: 24
+                pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+
+            Label:
+                text: "Green: "
+                font_size: 24
+                pos_hint: {'center_x': 0.30, 'center_y': 0.3}
+
+
+            CheckBox:
+                id: green_ball_id
+                group: "ball_color"
+                active: True
+                pos_hint: {'center_x': 0.42, 'center_y': 0.3}
+                size_hint: .1, .1
+                on_press: root.choose_ball_color("green")
+            
+            Label:
+                text: "Red: "
+                font_size: 24
+                pos_hint: {'center_x': 0.65, 'center_y': 0.3}
+
+            CheckBox:
+                id: red_ball_id
+                group: "ball_color"
+                pos_hint: {'center_x': 0.75, 'center_y': 0.3}
+                size_hint: .1,.1
+                on_press: root.choose_ball_color("red")
+
+
+    BoxLayout:
+        orientation: "horizontal"
+        id: camera_view_parent
+    
+        Label: 
+            id: empty_left_space
+            text: ""
+            size_hint: .35, 1
+            pos_hint: {"x": 0, "y":0}
+
+        CameraView:
+            transparent_gray: (100/255, 100/255, 100/255, .6)
+            canvas.after:
+                Color: 
+                    rgba: self.transparent_gray
+                Rectangle:
+                    id: leftRect
+                    pos: self.pos
+                    size: (self.size[0] * .45 * root.left_val) - (self.size[0] * .45), self.size[1]
+                Rectangle:
+                    id: rightRect
+                    pos: self.pos[0] * 3.86, self.pos[1]
+                    size: (self.size[0] * .45 * root.right_val * -1) + (self.size[0] * .45), self.size[1]
+                Rectangle:
+                    id: topRect
+                    pos: (self.size[0] * .45 * root.left_val) - (self.size[0] * .1), self.pos[1]
+                    size: self.size[0] - ((self.size[0] * .45 * root.left_val) - (self.size[0] * .45)) + ((self.size[0] * .4493 * root.right_val * -1) + (self.size[0] * .45)), self.size[1] * .45 * root.top_val - (self.size[1] * .45)
+                Rectangle:
+                    id: bottomRect
+                    pos: (self.size[0] * .45 * root.left_val) - (self.size[0] * .1), self.pos[1] * 1.2  + (self.size[1] * .45 * root.bottom_val)
+                    size: self.size[0] - ((self.size[0] * .45 * root.left_val) - (self.size[0] * .45)) + ((self.size[0] * .4493 * root.right_val * -1) + (self.size[0] * .45)) , 2.09 * self.size[1] * .45 - (self.size[1] * .45 * root.bottom_val)
+            id: my_cam
+            source: root.my_img
+            
+        RelativeLayout:
+            size_hint: .35, 1
+            pos_hint: {"x": .75, "y":0}
+
+            Slider:
+                id: top_slider
+                min: 1
+                max: 100
+                step: 1
+                orientation: 'vertical'
+                pos: - .5*(self.size[0]) + 30, 0
+                size_hint_y: .5
+                on_value: root.change_top_image_area(*args)
+
+            Slider:
+                id: bottom_slider
+                min: 1
+                max: 100
+                step: 1
+                orientation: 'vertical'
+                pos: - .5*(self.size[0]) + 30, self.size[1] 
+                size_hint_y: .5
+                value: 100
+                on_value: root.change_bottom_image_area(*args)
+            
+    BoxLayout:
+        orientation: "vertical"
+        size_hint: 1, .3
+        RelativeLayout:
+            Slider:
+                id: left_slider
+                min: 1
+                max: 100
+                step: 1
+                orientation: 'horizontal'
+                pos: .63 * self.size[0], (6 * self.size[1])
+                size_hint_y: .1
+                size_hint_x: .3
+                on_value: root.change_left_image_area(*args)
+            Slider:
+                id: right_slider
+                min: 1
+                max: 100
+                step: 1
+                orientation: 'horizontal'
+                pos: 1.7 * self.size[0], (6 * self.size[1])
+                size_hint_y: .1
+                size_hint_x: .3
+                value: 100
+                on_value: root.change_right_image_area(*args)
+            
+
+        RelativeLayout:
+            Button:
+                text: "Save and exit"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+                size_hint: .3, .7
+                background_color: DECORATION_COLOR_NOALPHA
+                on_press: root.save_and_exit()
+
+
+<RoundedButton@Button>:
+    wh_bg: (236/255, 236/255, 236/255, 1)
+    bl_bg: (15/255, 175/255, 255/255, 1)
+
+    
+    canvas.before:
+        Color:
+            rgba: root.bl_bg if self.state == "normal" else root.wh_bg
+        Line:
+            width: 2
+            circle: self.pos[0] + (self.size[0]/2), self.pos[1] + (self.size[1] /2), self.size[0] /2
+                
+        Color: 
+            rgba: [0,0,0,0] if self.state == "normal" else root.bl_bg
+        RoundedRectangle:
+            size: self.size 
+            pos: self.pos 
+            radius: [58]
+    
+    color: root.bl_bg if self.state == "normal" else root.wh_bg
+    background_color: [0,0,0,0] 
+
+
+<CustomSwitch@Switch>:
+    values: ['Yes', 'No']
+    canvas:
+        Color:
+            rgb: 0.2, 0.709, 0.898, 1
+        Rectangle:
+            size: [sp(41.5), sp(20)]
+            pos: [self.center_x - sp(41.5), self.center_y - sp(10)]
+        Color:
+            rgb: 0.4, 0.4, 0.4, 1
+        Rectangle:
+            size: [sp(41.5), sp(20)]
+            pos: [self.center_x, self.center_y - sp(10)]
+    Label:
+        text: '[b]{}[/b]'.format(root.values[0])
+        markup: True
+        font_size: 13
+        pos: [root.center_x - sp(70), root.center_y - sp(50)]
+    Label:
+        color: 0.75, 0.75, 0.75, 1
+        text: '[b]{}[/b]'.format(root.values[1])
+        markup: True
+        font_size: 13
+        pos: [root.center_x - sp(30), root.center_y - sp(50)]
