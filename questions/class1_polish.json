@@ -1,0 +1,773 @@
+{
+    "polish": {
+        "class_1": {
+            "u_ó":{
+                "level_1": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["Gr_szka", "u"],
+                        "2":["Oł_wek","ó"],
+                        "3":["Lod_wka","ó"],
+                        "4":["S_l","ó"],
+                        "5":["Dł_gopis","u"],
+                        "6":["Samoch_d","ó"],
+                        "7":["St_ł","ó"],
+                        "8":["C_kierek","u"],
+                        "9":["Kr_l","ó"],
+                        "10":["Podar_nek","u"]
+                    }
+                },
+                "level_2": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["m_zg", "ó"],
+                        "2":["sk_ra","ó"],
+                        "3":["Mal_je","u"],
+                        "4":["ż_łw","ó"],
+                        "5":["pok_j","ó"],
+                        "6":["Kosz_la","u"],
+                        "7":["Pap_ga","u"],
+                        "8":["wr_żka","ó"],
+                        "9":["Kapel_sz","u"],
+                        "10":["ch_r","ó"]
+                    }
+                },
+                "level_3": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["pi_ro", "ó"],
+                        "2":["L_dziki","u"],
+                        "3":["K_zyn","u"],
+                        "4":["l_d","ó"],
+                        "5":["w_z","ó"],
+                        "6":["n_ż","ó"],
+                        "7":["_l","u"],
+                        "8":["potw_r","ó"],
+                        "9":["Pi_rnik","ó"],
+                        "10":["Serd_szko","u"]
+                    }
+                },
+                "level_4": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_czyć", "u"],
+                        "2":["Jask_łka","ó"],
+                        "3":["K_łko","ó"],
+                        "4":["_ratować","u"],
+                        "5":["R_ża","ó"],
+                        "6":["_tknąć","u"],
+                        "7":["_chylić","u"],
+                        "8":["Kt_ry","ó"],
+                        "9":["L_pa","u"],
+                        "10":["Pok_j","ó"]
+                    }
+                },
+                "level_5": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["Dzi_ra", "u"],
+                        "2":["Wr_żka","ó"],
+                        "3":["Maj_wka","ó"],
+                        "4":["Kar_zela","u"],
+                        "5":["Pok_j","ó"],
+                        "6":["B_da","u"],
+                        "7":["K_ra","u"],
+                        "8":["S_l","ó"],
+                        "9":["D_ł","ó"],
+                        "10":["_czyć","u"],
+                        "11":["W_z","ó"],
+                        "12":["Kr_l","ó"],
+                        "13":["_ratować","u"],
+                        "14":["Dł_gopis","u"],
+                        "15":["Dr_gie","u"]
+                    }
+                },
+            "level_6": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["Kr_tka","ó"],
+                    "2":["prac_je","u"],
+                    "3":["Z_pełnie","u"],
+                    "4":["r_g","ó"],
+                    "5":["l_żko","ó"],
+                    "6":["zł_dzenie","u"],
+                    "7":["Pap_ga","u"],
+                    "8":["Lod_wka","ó"],
+                    "9":["Oł_wek","ó"],
+                    "10":["Gr_szka", "u"]
+                }
+            },
+            "level_7": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["Kr_l","ó"],
+                    "2":["w_jt","ó"],
+                    "3":["wr_żba","ó"],
+                    "4":["Dł_gopis","u"],
+                    "5":["ż_łw","ó"],
+                    "6":["potw_r","ó"],
+                    "7":["Kt_ry","ó"],
+                    "8":["Mal_je","u"],
+                    "9":["sk_ra","ó"],
+                    "10":["m_zg", "ó"]
+                }
+            },
+            "level_8": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["Kar_zela","u"],
+                    "2":["d_ł","ó"],
+                    "3":["B_da","u"],
+                    "4":["S_l","ó"],
+                    "5":["_czyć","u"],
+                    "6":["Kr_l","ó"],
+                    "7":["Dr_gie","u"],
+                    "8":["K_zyn","u"],
+                    "9":["L_dziki","u"],
+                    "10":["pi_ro", "ó"]
+                }
+            },
+            "level_9": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["Pok_j","ó"],
+                    "2":["L_pa","u"],
+                    "3":["Kt_ry","ó"],
+                    "4":["_chylić","u"],
+                    "5":["_tknąć","u"],
+                    "6":["R_ża","ó"],
+                    "7":["_ratować","u"],
+                    "8":["K_łko","ó"],
+                    "9":["Jask_łka","ó"],
+                    "10":["_czyć", "u"]
+                }
+            },
+            "level_10": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["D_ł","ó"],
+                    "2":["S_l","ó"],
+                    "3":["K_ra","ó"],
+                    "4":["B_da","u"],
+                    "5":["_czyć","u"],
+                    "6":["Pok_j","ó"],
+                    "7":["Kar_zela","u"],
+                    "8":["Maj_wka","ó"],
+                    "9":["Wr_żka","ó"],
+                    "10":["Dzi_ra", "u"]
+                }
+            },
+            "level_11": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["kł_tnia","ó"],
+                    "2":["Opr_cz ","ó"],
+                    "3":["w_jt","ó"],
+                    "4":["_siadł","u"],
+                    "5":["zł_ż","ó"],
+                    "6":["Kapel_sz","u"],
+                    "7":["Pap_ga","u"],
+                    "8":["chm_ra","u"],
+                    "9":["Kapel_sz","u"],
+                    "10":["ż_łty","ó"]
+                }
+            },
+            "level_12": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["ł_k","u"],
+                    "2":["_brania", "u"],
+                    "3":["Pok_j","ó"],
+                    "4":["Jak_b", "u"],
+                    "5":["ch_r", "ó"],
+                    "6":["C_kierek","u"],
+                    "7":["k_łko","ó"],
+                    "8":["p_ł","ó"],
+                    "9":["_pał","u"],
+                    "10":["Samoch_d","ó"]
+                }
+            },
+            "level_13": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["d_ch", "u"],
+                    "2":["l_d","ó"],
+                    "3":["k_łko","ó"],
+                    "4":["r_g","ó"],
+                    "5":["s_chy","u"],
+                    "6":["zł_dzenie","u"],
+                    "7":["Pap_ga","u"],
+                    "8":["opis_ję","u"],
+                    "9":["zł_dzenie","u"],
+                    "10":["s_l","ó"]
+                }
+            },
+            "level_14": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["c_rka", "ó"],
+                    "2":["d_ł","ó"],
+                    "3":["chm_ra","u"],
+                    "4":["r_g","ó"],
+                    "5":["l_żko","ó"],
+                    "6":["zł_dzenie","u"],
+                    "7":["Pap_ga","u"],
+                    "8":["p_ł","ó"],
+                    "9":["Kapel_sz","u"],
+                    "10":["ż_łty","ó"]
+                }
+            },
+            "level_15": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "1":["_czyć", "u"],
+                    "2":["Jask_łka","ó"],
+                    "3":["K_łko","ó"],
+                    "4":["_ratować","u"],
+                    "5":["R_ża","ó"],
+                    "6":["_tknąć","u"],
+                    "7":["_chylić","u"],
+                    "8":["Kt_ry","ó"],
+                    "9":["L_pa","u"],
+                    "10":["Pok_j","ó"],
+                    "11":["Kosz_la","u"],
+                    "12":["Pap_ga","u"],
+                    "13":["wr_żka","ó"],
+                    "14":["Kapel_sz","u"],
+                    "15":["ch_r","ó"]
+                }
+            }
+        },
+            "ch_h":{
+                "level_1": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_ałas", "h"],
+                        "2":["S_udnąć","ch"],
+                        "3":["_oroba","ch"],
+                        "4":["Pe_","ch"],
+                        "5":["O_yda","h"],
+                        "6":["Su_y","ch"],
+                        "7":["_umor","h"],
+                        "8":["Gro_","ch"],
+                        "9":["_rapać","ch"],
+                        "10":["Du_","ch"]
+                    }
+                },
+                "level_2": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_arakter", "ch"],
+                        "2":["Stra_","ch"],
+                        "3":["Po_wała","ch"],
+                        "4":["Bo_ater","h"],
+                        "5":["_onor","h"],
+                        "6":["Samo_ód","ch"],
+                        "7":["_ala","h"],
+                        "8":["E_o","ch"],
+                        "9":["Bo_enek","ch"],
+                        "10":["Ar_itekt","ch"]
+                    }
+                },
+                "level_3": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_erbata", "h"],
+                        "2":["_asło","h"],
+                        "3":["Mu_a","ch"],
+                        "4":["Da_","ch"],
+                        "5":["S_ab","ch"],
+                        "6":["O_ydny","h"],
+                        "7":["_erb","h"],
+                        "8":["_odowla","h"],
+                        "9":["_ania","h"],
+                        "10":["S_ody","ch"]
+                    }
+                },
+                "level_4": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_amak", "h"],
+                        "2":["_usteczki","ch"],
+                        "3":["_elena","h"],
+                        "4":["_igiena","h"],
+                        "5":["Ko_ać","ch"],
+                        "6":["_odzić","ch"],
+                        "7":["_istoria","h"],
+                        "8":["Potwora_","ch"],
+                        "9":["_uśtawka","h"],
+                        "10":["Sza_y","ch"]
+                    }
+                },
+                "level_5": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_ipopotam", "h"],
+                        "2":["U_o","ch"],
+                        "3":["Mar_ewka","ch"],
+                        "4":["_ałas","h"],
+                        "5":["_arakter","ch"],
+                        "6":["Samo_ód","ch"],
+                        "7":["O_yda","h"],
+                        "8":["Ko_ać","ch"],
+                        "9":["_asło","h"],
+                        "10":["_istoria","h"],
+                        "11":["_umor","h"],
+                        "12":["Bo_ater","h"],
+                        "13":["_oroba","ch"],
+                        "14":["_elena","h"],
+                        "15":["Sza_y","ch"]
+                    }
+                },
+                "level_6": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_ania", "h"],
+                        "2":["du_","ch"],
+                        "3":["su_y","ch"],
+                        "4":["_leb","ch"],
+                        "5":["_erbata","h"],
+                        "6":["_ymn","h"],
+                        "7":["Bo_ater","h"],
+                        "8":["_ulajnoga","h"],
+                        "9":["_istoria","h"],
+                        "10":["_walić","ch"]
+                    }
+                },
+                "level_7": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_lew", "ch"],
+                        "2":["_łodno","ch"],
+                        "3":["_łopak","ch"],
+                        "4":["_erb","h"],
+                        "5":["_umor","h"],
+                        "6":["_murka","ch"],
+                        "7":["_asło","h"],
+                        "8":["Mar_ewka","ch"],
+                        "9":["_amulec","h"],
+                        "10":["_leb","ch"]
+                    }
+                },
+                "level_8": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["o_ydny", "h"],
+                        "2":["_ata","ch"],
+                        "3":["_oinka","ch"],
+                        "4":["_aczyk","h"],
+                        "5":["Mu_omory","ch"],
+                        "6":["_łopiec","ch"],
+                        "7":["Wa_ać się","h"],
+                        "8":["_odzić","ch"],
+                        "9":["_ór","ch"],
+                        "10":["_omik","ch"]
+                    }
+                },
+                "level_9": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_otel", "h"],
+                        "2":["_wila","ch"],
+                        "3":["_ala","h"],
+                        "4":["_ałas","h"],
+                        "5":["_odzić","ch"],
+                        "6":["S_ody","ch"],
+                        "7":["_erbatniki","h"],
+                        "8":["_ory","ch"],
+                        "9":["_oroba","ch"],
+                        "10":["_orzeć","ch"]
+                    }
+                },
+                "level_10": {
+                    "settings": {
+                        "speed": 1.5,
+                        "x_move": false,
+                        "1":["_ubert", "h"],
+                        "2":["_arcerz","h"],
+                        "3":["Mi_ał","ch"],
+                        "4":["_udy","ch"],
+                        "5":["Ku_arz","ch"],
+                        "6":["Dmu_ać","ch"],
+                        "7":["_alina","h"],
+                        "8":["_walić","ch"],
+                        "9":["_enryk","h"],
+                        "10":["_onor","h"],
+                        "11":["_uk","h"],
+                        "12":["_elikopter","h"],
+                        "13":["_igiena","ch"],
+                        "14":["_umor","h"],
+                        "15":["_łopcy","ch"]
+                    }
+                },
+                "level_11": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_lew", "ch"],
+                        "2":["_łodno","ch"],
+                        "3":["_łopak","ch"],
+                        "4":["_udy","ch"],
+                        "5":["Ku_arz","ch"],
+                        "6":["_ymn","h"],
+                        "7":["Bo_ater","h"],
+                        "8":["Mar_ewka","ch"],
+                        "9":["_amulec","h"],
+                        "10":["_leb","ch"]
+                    }
+                },
+                "level_12": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["o_ydny", "h"],
+                        "2":["_ata","ch"],
+                        "3":["_oinka","ch"],
+                        "4":["_leb","ch"],
+                        "5":["_erbata","h"],
+                        "6":["_uk","h"],
+                        "7":["_elikopter","h"],
+                        "8":["_igiena","ch"],
+                        "9":["_umor","h"],
+                        "10":["_łopcy","ch"]
+                    }
+                },
+                "level_13": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_ania", "h"],
+                        "2":["du_","ch"],
+                        "3":["su_y","ch"],
+                        "4":["_leb","ch"],
+                        "5":["Mu_omory","ch"],
+                        "6":["Dmu_ać","ch"],
+                        "7":["_alina","h"],
+                        "8":["_walić","ch"],
+                        "9":["_enryk","h"],
+                        "10":["_onor","h"]
+                    }
+                },
+                "level_14": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_ubert", "h"],
+                        "2":["_arcerz","h"],
+                        "3":["_łopak","ch"],
+                        "4":["_udy","ch"],
+                        "5":["Ku_arz","ch"],
+                        "6":["_ymn","h"],
+                        "7":["Bo_ater","h"],
+                        "8":["_odzić","ch"],
+                        "9":["_ór","ch"],
+                        "10":["_omik","ch"]
+                    }
+                },
+                "level_15": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["o_ydny", "h"],
+                        "2":["_ata","ch"],
+                        "3":["_oinka","ch"],
+                        "4":["_aczyk","h"],
+                        "5":["Mu_omory","ch"],
+                        "6":["_łopiec","ch"],
+                        "7":["Wa_ać się","h"],
+                        "8":["_walić","ch"],
+                        "9":["_enryk","h"],
+                        "10":["_onor","h"],
+                        "11":["_uk","h"],
+                        "12":["_elikopter","h"],
+                        "13":["_igiena","ch"],
+                        "14":["_ipopotam", "h"],
+                        "15":["U_o","ch"]
+                    }
+                }
+            },
+            "rz_ż":{
+                "level_1": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["K_esło", "rz"],
+                        "2":["_arówka","ż"],
+                        "3":["D_wi","rz"],
+                        "4":["_yrandol","ż"],
+                        "5":["Kątomie_","rz"],
+                        "6":["_elazko","ż"],
+                        "7":["Ły_ka","ż"],
+                        "8":["Tale_","rz"],
+                        "9":["Fili_anka","ż"],
+                        "10":["Ksią_ka","ż"]
+                    }
+                },
+                "level_2": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["Ma_ena", "rz"],
+                        "2":["Podró_","ż"],
+                        "3":["_eczy","rz"],
+                        "4":["Pot_ebować","rz"],
+                        "5":["P_ydać","rz"],
+                        "6":["Ni_sza","ż"],
+                        "7":["Mo_e","ż"],
+                        "8":["Zwie_ęta","rz"],
+                        "9":["D_ewa","rz"],
+                        "10":["Je_yny","rz"]
+                    }
+                },
+                "level_3": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["P_yroda", "rz"],
+                        "2":["K_ew","rz"],
+                        "3":["_ółte","ż"],
+                        "4":["G_mota","rz"],
+                        "5":["Olb_ym","rz"],
+                        "6":["P_epaść","rz"],
+                        "7":["Ka_dy","ż"],
+                        "8":["Zagro_enie","ż"],
+                        "9":["T_ask","rz"],
+                        "10":["Ude_enie","rz"]
+                    }
+                },
+                "level_4": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["P_yjemny", "rz"],
+                        "2":["Wzdłu_","ż"],
+                        "3":["G_yb","rz"],
+                        "4":["Bo_ena","ż"],
+                        "5":["K_yczeć","rz"],
+                        "6":["Kole_anka","ż"],
+                        "7":["Kolo_e","rz"],
+                        "8":["Ró_a","ż"],
+                        "9":["B_uch","rz"],
+                        "10":["Ró_owy","ż"]
+                    }
+                },
+                "level_5": {
+                    "settings": {
+                        "speed": 1,
+                        "x_move": false,
+                        "1":["_yrandol", "ż"],
+                        "2":["Ma_yć","rz"],
+                        "3":["Bo_ena","ż"],
+                        "4":["Kole_anka","ż"],
+                        "5":["Pot_ebować","rz"],
+                        "6":["Pla_a","ż"],
+                        "7":["Ude_enie","rz"],
+                        "8":["B_eg","rz"],
+                        "9":["Le_eć","ż"],
+                        "10":["Niewa_ne","ż"],
+                        "11":["P_ysmak","rz"],
+                        "12":["Po_eczki","rz"],
+                        "13":["P_ygoda","rz"],
+                        "14":["Ma_enie","rz"],
+                        "15":["_ycie","ż"]
+                    }
+                },
+                "level_6": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["_ąd", "rz"],
+                            "2":["_aba","ż"],
+                            "3":["_ecz","rz"],
+                            "4":["_agiel","ż"],
+                            "5":["_eka","rz"],
+                            "6":["_art","ż"],
+                            "7":["_al","ż"],
+                            "8":["_ądca","rz"],
+                            "9":["_elazo","ż"],
+                            "10":["_ądło","ż"]
+                        }
+                    },
+                    "level_7": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["_eczywiście", "rz"],
+                            "2":["_elki","ż"],
+                            "3":["_eczownik","rz"],
+                            "4":["_eczpospolita","rz"],
+                            "5":["P_edstawienie","rz"],
+                            "6":["_ak","ż"],
+                            "7":["_ona","ż"],
+                            "8":["P_ed","rz"],
+                            "9":["Kata_yna","rz"],
+                            "10":["Stwo_enie","rz"]
+                        }
+                    },
+                    "level_8": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["Pat_yli", "rz"],
+                            "2":["Niedowie_ać","rz"],
+                            "3":["_uk","ż"],
+                            "4":["Akto_y","rz"],
+                            "5":["Amato_y","rz"],
+                            "6":["Ryce_","rz"],
+                            "7":["_el","ż"],
+                            "8":["_ołnie_","ż"],
+                            "9":["Sk_at","rz"],
+                            "10":["Niep_yjemne","rz"]
+                        }
+                    },
+                    "level_9": {
+                        "settings": {
+                            "speed": 1,    
+                            "x_move": false,
+                            "1":["Olb_ym", "rz"],
+                            "2":["_egnać","ż"],
+                            "3":["D_ewa","rz"],
+                            "4":["_yczenia","ż"],
+                            "5":["Sk_ypce","rz"],
+                            "6":["_aneta","ż"],
+                            "7":["Bu_a","rz"],
+                            "8":["Ka_dy","ż"],
+                            "9":["Ja_yna","rz"],
+                            "10":["Gra_yna","ż"]
+                        }
+                    },
+                    "level_10": {
+                        "settings": {
+                            "speed": 1.5,
+                            "x_move": false,
+                            "1":["Księ_niczka", "ż"],
+                            "2":["Ma_enie","rz"],
+                            "3":["_ebrak","ż"],
+                            "4":["Wró_ka","ż"],
+                            "5":["O_ech","rz"],
+                            "6":["du_o","ż"],
+                            "7":["Po_ądek","rz"],
+                            "8":["_adki","rz"],
+                            "9":["_eby","ż"],
+                            "10":["Ły_ka","ż"],
+                            "11":["_eźba","rz"],
+                            "12":["Tale_","rz"],
+                            "13":["Wa_ywa","rz"],
+                            "14":["Zmie_ch","rz"],
+                            "15":["_arłok","ż"]
+                        }
+                    },
+                    "level_11": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["Księ_niczka", "ż"],
+                            "2":["Ma_enie","rz"],
+                            "3":["_ebrak","ż"],
+                            "4":["Wró_ka","ż"],
+                            "5":["O_ech","rz"],
+                            "6":["_aneta","ż"],
+                            "7":["Bu_a","rz"],
+                            "8":["Ka_dy","ż"],
+                            "9":["Ja_yna","rz"],
+                            "10":["Gra_yna","ż"]
+                        }
+                    },
+                    "level_12": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["du_o","ż"],
+                            "2":["Po_ądek","rz"],
+                            "3":["_adki","rz"],
+                            "4":["_eby","ż"],
+                            "5":["Ły_ka","ż"],
+                            "6":["Ryce_","rz"],
+                            "7":["_el","ż"],
+                            "8":["_ołnie_","ż"],
+                            "9":["Sk_at","rz"],
+                            "10":["Niep_yjemne","rz"]
+                        }
+                    },
+                    "level_13": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["_eźba","rz"],
+                            "2":["Tale_","rz"],
+                            "3":["Wa_ywa","rz"],
+                            "4":["Zmie_ch","rz"],
+                            "5":["_arłok","ż"],
+                            "6":["_ak","ż"],
+                            "7":["_ona","ż"],
+                            "8":["P_ed","rz"],
+                            "9":["Kata_yna","rz"],
+                            "10":["Stwo_enie","rz"]
+                        }
+                    },
+                    "level_14": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["_adki","rz"],
+                            "2":["_eby","ż"],
+                            "3":["Ły_ka","ż"],
+                            "4":["_eźba","rz"],
+                            "5":["Tale_","rz"],
+                            "6":["_eczywiście", "rz"],
+                            "7":["_elki","ż"],
+                            "8":["_eczownik","rz"],
+                            "9":["_eczpospolita","rz"],
+                            "10":["P_edstawienie","rz"]
+                        }
+                    },
+                    "level_15": {
+                        "settings": {
+                            "speed": 1,
+                            "x_move": false,
+                            "1":["_ąd", "rz"],
+                            "2":["_aba","ż"],
+                            "3":["_ecz","rz"],
+                            "4":["_agiel","ż"],
+                            "5":["_eka","rz"],
+                            "6":["_art","ż"],
+                            "7":["_al","ż"],
+                            "8":["_ądca","rz"],
+                            "9":["_elazo","ż"],
+                            "10":["_ądło","ż"],
+                            "11":["_eby","ż"],
+                            "12":["Ły_ka","ż"],
+                            "13":["Ryce_","rz"],
+                            "14":["_el","ż"],
+                            "15":["_ołnie_","ż"]
+                    }
+                }
+
+            }
+        }
+    }
+}

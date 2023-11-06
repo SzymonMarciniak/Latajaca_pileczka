@@ -60,7 +60,6 @@ def print_all_data():
     print()
 
 
-if __name__ == "__main__":
-    inicjalize_db()
-    set_default_values()
-    print_all_data()
+inicjalize_db()
+set_default_values()
+print_all_data()
