@@ -1,0 +1,147 @@
+{
+    "english":{
+        "class_3": {
+            "level_1": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Ear", "Mouth", "Hair", "Eye","Nose","Neck","Face"]
+    
+                }                    
+            },
+            "level_2": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Donkey", "Frog", "Cow", "Cat","Dog","Mouse","Pig","Parrot","Goat","Chicken"]
+    
+                }                    
+            },
+            "level_3": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Rabbit", "Frog", "Duck", "Cat","Dog","Mouse","Pig","Parrot","Goat","Chicken"]
+    
+                }                    
+            },
+            "level_4": {
+                "settings": {
+                    "digits_in_one_row": 3,
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["White", "Yellow", "Red", "Orange","Blue","Brown","Black","Green","Pink","Purple"]
+    
+                }                    
+            },
+            "level_5": {
+                "settings": {
+                    "speed": 1.2,
+                    "x_move": false,
+                    "vocabulary":["White", "Black", "Red", "Grey","Blue","Brown","Green","Pink","Purple"]
+    
+                }                    
+            },
+            "level_6": {
+                "settings": {
+                    "speed": 1.3,
+                    "x_move": true,
+                    "vocabulary":["Mouth", "Chicken", "Red", "Neck","Blue","Mouse","Black","Face","Dog","Purple", "Hair", "Goat", "Cat", "Yellow", "White"]
+    
+                }                    
+            },                
+            "level_7": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Doll", "Dinosaur", "Car", "Ball","Train","Cowboy","Boat","Teddy","Yo-Yo","Bike"]
+    
+                }                    
+            },
+            "level_8": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Ham", "Cheese", "Egg", "Fish","Bread","Potato","Apple","Butter","Chicken","Tomato"]
+    
+                }                    
+            },
+            "level_9": {
+                "settings": {
+                    "digits_in_one_row": 3,
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Ham", "Sausage", "Banana", "Fish","Bread","Potato","Lemon","Butter","Chicken","Tomato"]
+    
+                }                    
+            },
+            "level_10": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Finger", "Arm", "Feet","Leg","Head","Tummy","Body","Face"]
+    
+                }                    
+            },
+            "level_11": {
+                "settings": {
+                    "speed": 1.3,
+                    "x_move": false,
+                    "vocabulary":["Kitchen", "Living room", "Bedroom","Bathroom","Laundry room","Garage","Kids room"]
+    
+                }                    
+            },
+        
+        "level_12": {
+            "settings": {
+                "digits_in_one_row": 2,
+                "speed": 1.3,
+                "x_move": true,
+                "vocabulary":["Kitchen", "Bike", "Body", "Egg","Car","Apple","Garage","Head", "Train", "Cheese", "Bedroom", "Bread", "Leg", "Sausage", "Ball"]
+    
+            }                    
+        },
+            "level_13": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Dress", "Skirt", "T-Shirt","Trousers","Sweater","Coat","Hat", "Scraf", "Jacket"]
+    
+                }                    
+            },
+            "level_14": {
+                "settings": {
+                    "digits_in_one_row": 3,
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["T-Shirt", "Scraf", "Boots","Trousers","Sweater","Socks","Hat", "Shoes", "Jacket"]
+    
+                }                    
+            },
+            "level_15": {
+                "settings": {
+                    "speed": 1,
+                    "x_move": false,
+                    "vocabulary":["Cow", "Horse", "Pig", "Dog","Cat","Hamster","Bull","Sheep", "Goat", "Chicken"]
+    
+                }                    
+            },
+            "level_16": {
+                "settings": {
+                    "speed": 1.2,
+                    "x_move": false,
+                    "vocabulary":["Rooster", "Dog", "Sheep", "Chicken","Cow","Horse","Cat","Bull", "Pig", "Hamster"]
+    
+                }                    
+            },
+            "level_17": {
+                "settings": {
+                    "speed": 1.5,
+                    "x_move": true,
+                    "vocabulary":["T-Shirt","Bike","Car","Cow","Cat","Body","Pig","Boots","Ball","Leg","Face","Hair","Horse","Dress","Eye","Goat"]
+    
+                    }                    
+                }
+            }    
+        }
+    }

@@ -52,15 +52,15 @@ class SelectMathCategory:
         SelectMathCategory.multiply_button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)-(button_w*1.25), (screen_h/2)+(button_h/2)), (button_w, button_h)),
                                                     text='Mnożenie',
                                                     manager=manager,
-                                                    object_id=ObjectID(class_id=button_style,object_id='@blue')) 
+                                                    object_id=ObjectID(class_id=button_style,object_id='@gray')) 
         
-        SelectMathCategory.more_less = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)+(button_w/1.75), (screen_h/2)+(button_h/2)), (button_w, button_h)),
-                                                    text='soon',
+        SelectMathCategory.division = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)+(button_w/1.75), (screen_h/2)+(button_h/2)), (button_w, button_h)),
+                                                    text='Dzielenie',
                                                     manager=manager,
                                                     object_id=ObjectID(class_id=button_style,object_id='@gray')) 
         
-        SelectMathCategory.category_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button))
-        game_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button, SelectMathCategory.more_less)) 
+        SelectMathCategory.category_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button))
+        game_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button, SelectMathCategory.division)) 
 
     @staticmethod
     def build_2_class(): 
@@ -84,15 +84,15 @@ class SelectMathCategory:
         SelectMathCategory.multiply_button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)-(button_w*1.25), (screen_h/2)+(button_h/2)), (button_w, button_h)),
                                                     text='Mnożenie',
                                                     manager=manager,
-                                                    object_id=ObjectID(class_id=button_style,object_id='@blue')) 
+                                                    object_id=ObjectID(class_id=button_style,object_id='@gray')) 
         
-        SelectMathCategory.more_less = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)+(button_w/1.75), (screen_h/2)+(button_h/2)), (button_w, button_h)),
-                                                    text='soon',
+        SelectMathCategory.division = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)+(button_w/1.75), (screen_h/2)+(button_h/2)), (button_w, button_h)),
+                                                    text='Dzielenie',
                                                     manager=manager,
                                                     object_id=ObjectID(class_id=button_style,object_id='@gray')) 
         
-        SelectMathCategory.category_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button))
-        game_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button, SelectMathCategory.more_less)) 
+        SelectMathCategory.category_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button))
+        game_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button, SelectMathCategory.division)) 
  
 
     @staticmethod
@@ -117,15 +117,15 @@ class SelectMathCategory:
         SelectMathCategory.multiply_button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)-(button_w*1.25), (screen_h/2)+(button_h/2)), (button_w, button_h)),
                                                     text='Mnożenie',
                                                     manager=manager,
-                                                    object_id=ObjectID(class_id=button_style,object_id='@blue')) 
+                                                    object_id=ObjectID(class_id=button_style,object_id='@gray')) 
         
-        SelectMathCategory.more_less = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)+(button_w/1.75), (screen_h/2)+(button_h/2)), (button_w, button_h)),
-                                                    text='soon',
+        SelectMathCategory.division = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)+(button_w/1.75), (screen_h/2)+(button_h/2)), (button_w, button_h)),
+                                                    text='Dzielenie',
                                                     manager=manager,
                                                     object_id=ObjectID(class_id=button_style,object_id='@gray')) 
         
-        SelectMathCategory.category_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button))
-        game_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button, SelectMathCategory.more_less)) 
+        SelectMathCategory.category_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button))
+        game_buttons.extend((SelectMathCategory.sum_button, SelectMathCategory.sub_button, SelectMathCategory.multiply_button, SelectMathCategory.division)) 
  
 
     

@@ -43,9 +43,10 @@ class MainScreen(BoxLayout):
         cam_id = choose
         if first_time:
             cam = CameraView()
-            p1 = Process(target=Clock.schedule_interval(cam.cam_display, refresh_time))
+            # p1 = Process(target=) #TODO 
+            Clock.schedule_interval(cam.cam_display, refresh_time)
             Clock.schedule_interval(self.refresh_image, refresh_time)
-            p1.start()
+            # p1.start()
             my_cam = self.ids.my_cam
             first_time = not first_time
 
