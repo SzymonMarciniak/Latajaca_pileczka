@@ -22,7 +22,7 @@ class PolishEngine:
         if not choosen_class:
             choosen_class = execute_query("SELECT choosen_class FROM game_data WHERE id=1")[0][0]
             
-        with open(f"questions/class{choosen_class}_polish.json") as f:
+        with open(f"questions/class{choosen_class}_polish.json", "r", encoding='utf-8') as f:
             self.class_db = json.load(f)  
 
     def refresh_letters(self, letters_btn, queue, game_ids, solution):

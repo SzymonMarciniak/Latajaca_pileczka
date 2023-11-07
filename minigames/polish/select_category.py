@@ -113,13 +113,13 @@ class SelectPolishCategory:
                                                     object_id=ObjectID(class_id=button_style,object_id='@blue')) 
         
         SelectPolishCategory.no_less = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((screen_w/2.1)+(button_w/1.75), (screen_h/2)+(button_h/2)), (button_w, button_h)),
-                                                    text='Nie / Nie',
+                                                    text='Nie_ / Nie _',
                                                     manager=manager,
-                                                    object_id=ObjectID(class_id=button_style,object_id='@blue')) 
+                                                    object_id=ObjectID(class_id=button_style,object_id='@grey')) 
         
         
         
-        SelectPolishCategory.category_buttons.extend((SelectPolishCategory.u_button, SelectPolishCategory.rz_button, SelectPolishCategory.ch_button, SelectPolishCategory.no_less))
+        SelectPolishCategory.category_buttons.extend((SelectPolishCategory.u_button, SelectPolishCategory.rz_button, SelectPolishCategory.ch_button))
         game_buttons.extend((SelectPolishCategory.u_button, SelectPolishCategory.rz_button, SelectPolishCategory.ch_button, SelectPolishCategory.no_less))  
 
 
