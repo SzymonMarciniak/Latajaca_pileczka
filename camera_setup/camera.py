@@ -10,6 +10,7 @@ from kivy.clock import Clock
 from multiprocessing import Process
 from kivy.core.window import Window
 from kivy.uix.boxlayout import BoxLayout
+import yaml
 
 global refresh_time, cam_id, turn_off
 refresh_time = 3
@@ -144,7 +145,12 @@ class CameraView(Image):
                 pass
             else:
                 cam_list.append(str(i))
-        # cam_list.append("rtsp://user:passwd@ip_address:554/0")
+
+        with open('camera_setup/config.yaml', "r") as config_file:
+            data = yaml.safe_load(config_file)
+        if data["camera_rstp_adress"]: 
+            cam_list.append(data["camera_rstp_adress"])
+
         return cam_list
     
     def cam_display(self, *args):

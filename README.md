@@ -45,6 +45,10 @@ The projector should be suspended from the ceiling and throw the image onto a wa
 
 ## Camera setup 
 
+Connect your camera via LAN to computer and set rtsp address in camera setup/config.yaml file.
+
+Hint: If you do not connect a camera, you can select the webcam (if available), which is usually hidden under id 0.
+
 ### Mounting the camera on the wall
 
 The camera should be approximately 2 meters away from the closer edge of the displayed image. The most important thing is that the camera covers the entire image projected on the wall in the Y axis (from bottom to top), the rest can be adjusted with the program.

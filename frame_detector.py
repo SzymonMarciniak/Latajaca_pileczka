@@ -2,11 +2,18 @@ import cv2
 import numpy as np
 import time
 import json
+import yaml
 
 from database_actions import update_db
 
 #Camera setup
-camera = 0 #rtsp://user:password@ip_address:554/0
+with open('camera_setup/config.yaml', "r") as config_file:
+    data = yaml.safe_load(config_file)
+if data["camera_rstp_adress"] and data['use_rstp_camera']: 
+    camera = data["camera_rstp_adress"]
+else:
+    camera = 0
+
 cap = cv2.VideoCapture(camera)
 szerokosc_ekranu = cap.get(3)
 wysokosc_ekranu = cap.get(4)
