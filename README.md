@@ -13,7 +13,7 @@
 ### Python 
 Required python 3.9
 
-### Create and activate virtual environment:
+### Create and activate virtual environment: (optional)
     - pip install virtualenv
     - cd */project/path/*
     - python -m venv latajaca_pileczka
