@@ -10,8 +10,10 @@
  
     git clone https://github.com/SzymonMarciniak/Latajaca_pileczka.git
 
+### Python 
+Required python 3.9
+
 ### Create and activate virtual environment:
-    
     - pip install virtualenv
     - cd */project/path/*
     - python -m venv latajaca_pileczka
@@ -23,5 +25,6 @@
 
     *pip install - r requirements.txt*
 
-### Python 
-Required python 3.9
+### Run program:
+    - python main.py 
+
