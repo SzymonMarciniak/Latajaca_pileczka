@@ -79,7 +79,7 @@
             "settings": {
                 "speed": 1,
                 "x_move": false,
-                "vocabulary":["Finger", "Hands", "Arm", "Feet","Leg","Head","Tummy","Body","Face"]
+                "vocabulary":["Finger", "Arm", "Feet","Leg","Head","Tummy","Body","Face"]
 
             }                    
         },
@@ -138,7 +138,7 @@
             "settings": {
                 "speed": 1.5,
                 "x_move": true,
-                "vocabulary":["T-Shirt","Dog","Bike","Car","Cow","Blue","Cat","Body","Pig","Boots","Ball","Leg","Face","Hair","Horse","Dress","Eye","Goat","Apple","Green"]
+                "vocabulary":["T-Shirt","Bike","Car","Cow","Cat","Body","Pig","Boots","Ball","Leg","Face","Hair","Horse","Dress","Eye","Goat"]
 
                 }                    
             }

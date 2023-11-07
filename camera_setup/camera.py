@@ -143,7 +143,7 @@ class CameraView(Image):
                 pass
             else:
                 cam_list.append(str(i))
-        cam_list.append("rtsp://admin:dzbanek22448008@192.168.0.168:554/0")
+        # cam_list.append("rtsp://user:passwd@ip_address:554/0")
         return cam_list
     
     def cam_display(self, *args):
