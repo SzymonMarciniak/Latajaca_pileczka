@@ -30,7 +30,7 @@ class PolishScreen:
     def select_letter(self, event_pos, from_key=False):
         self.question, self.solution, self.points, valid = polish_engine.selecting_letter(event_pos, self.question, self.solution, self.points, self.current_question, self.game_ids, from_key)
         if valid: self.current_question += 1
-        if self.current_question == 10: self.end_game()
+        if self.current_question == 16: self.end_game()
         else: self.build_texts() #If someone win the game
             
     def end_game(self):

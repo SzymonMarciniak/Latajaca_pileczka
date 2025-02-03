@@ -23,7 +23,7 @@ class StartScreen:
         static.background = new_background
         
         main_text_size = 50 if not is_fullscreen() else 100
-        main_text = set_text("Latająca Piłeczka", (screen_w/2), screen_h/9, main_text_size)
+        main_text = set_text("Dwa ognie", (screen_w/2), screen_h/9, main_text_size)
 
         if back_img:
             exit_image = pygame.image.load("images/return_button.png")

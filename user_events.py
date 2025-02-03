@@ -69,6 +69,10 @@ class UserEvents:
 
         elif event_elem in LevelScreen.level_buttons: 
             choosen_lvl = event_elem.text
+            if choosen_lvl == "Czy awansujesz do":
+                choosen_lvl = 100
+            if choosen_lvl == "4 klasy podstawowej?":
+                choosen_lvl = 101
             update_db(f"UPDATE game_data SET choosen_lvl = {choosen_lvl}")
             current_screen_val(new_val=51)
             

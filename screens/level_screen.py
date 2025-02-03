@@ -42,8 +42,8 @@ class LevelScreen:
 
         if sub_category == "Mnożenie": levels_amount = 15
         elif sub_category == "Ó / U" or sub_category == "RZ / Ż" or \
-            sub_category == "CH / H" or sub_category == "Nie / Nie":
-            levels_amount = 15
+            sub_category == "CH / H" or sub_category == "Event":
+            levels_amount = 16
         elif sub_category == "english":
             levels_amount = 17
         
@@ -60,4 +60,17 @@ class LevelScreen:
             button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((pos_x, pos_y)), (button_w, button_h)),
                                                     text=str(i),manager=manager,object_id=ObjectID(class_id=button_style))
             LevelScreen.level_buttons.append(button)
+
+        if sub_category == "Event":
+            pos_x = (12*vw + 1.25*(button_w+space_x))
+            pos_y = 5*(button_h + space_y)
+            button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((pos_x, pos_y)), ((button_w+space_x)*2.5, button_h)),
+                                                    text="Czy awansujesz do",manager=manager,object_id=ObjectID(class_id=button_style))
+            LevelScreen.level_buttons.append(button)
+
+            pos_x = (12*vw + 3.9*(button_w+space_x))
+            button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect(((pos_x, pos_y)), ((button_w+space_x)*2.5, button_h)),
+                                                    text="4 klasy podstawowej?",manager=manager,object_id=ObjectID(class_id=button_style))
+            LevelScreen.level_buttons.append(button)
+
         game_buttons.extend(LevelScreen.level_buttons)

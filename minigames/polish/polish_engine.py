@@ -93,12 +93,12 @@ class PolishEngine:
 
         if from_key:
             points += 1
-            new_question, solution = self.new_question(current_question+1)
 
             for nr, letter in enumerate(static.letters_rect):
                 if str(game_ids[nr]).upper() == solution.upper():
                     letter.center = 0, screen.get_height() + (screen.get_width()/10) + 100
                     
+            new_question, solution = self.new_question(current_question+1)
             return new_question, solution, points, True
         
 
@@ -168,7 +168,7 @@ class PolishEngine:
         return self.questions, self.solutions
 
     def generate_qestions(self, level_data):
-        for i in range(1,11):
+        for i in range(1,17):
             question = level_data[f"{i}"][0]
             answer = level_data[f"{i}"][1]
             self.questions.update({i: [f"{question}", answer]})
